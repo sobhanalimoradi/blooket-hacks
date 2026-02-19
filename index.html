@@ -1,29 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Download My Code</title>
+    <title>My Code Download</title>
     <style>
         body {
             background: #0f172a;
             color: white;
-            font-family: sans-serif;
-            text-align: center;
-            padding-top: 100px;
+            font-family: Arial, sans-serif;
+            padding: 40px;
+            max-width: 800px;
+            margin: auto;
         }
-        a {
+
+        h1 {
+            color: #38bdf8;
+        }
+
+        .instructions {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .button {
+            display: inline-block;
             background: #38bdf8;
-            padding: 15px 30px;
+            padding: 15px 25px;
             border-radius: 10px;
             color: black;
             text-decoration: none;
             font-weight: bold;
         }
+
+        .button:hover {
+            opacity: 0.85;
+        }
     </style>
 </head>
 <body>
 
-    <h1>My Code File</h1>
-    <a href="code.txt" target="_blank">Open TXT File</a>
+    <h1>Download My Code</h1>
+
+    <div class="instructions">
+        <h2>Instructions</h2>
+        <p>
+            1. Click the button below to open the text file.<br><br>
+            2. Select all the text (Ctrl + A).<br><br>
+            3. Copy it (Ctrl + C).<br><br>
+            4. Paste it into a bookmarklet
+        </p>
+    </div>
+
+    <a href="code.txt" target="_blank" class="button">
+        Open TXT File
+    </a>
 
 </body>
 </html>
