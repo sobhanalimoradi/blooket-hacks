@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Get my java bhai</title>
+    <title>File Sharing Hub</title>
     <style>
         body {
             background: #0f172a;
@@ -10,54 +10,61 @@
             padding: 40px;
             max-width: 800px;
             margin: auto;
+            text-align: center;
         }
 
         h1 {
             color: #38bdf8;
         }
 
-        .instructions {
+        .box {
             background: #1e293b;
             padding: 20px;
             border-radius: 10px;
             margin-bottom: 30px;
         }
 
-        .button {
+        a {
             display: inline-block;
-            background: #38bdf8;
+            margin: 10px;
             padding: 15px 25px;
             border-radius: 10px;
-            color: black;
             text-decoration: none;
             font-weight: bold;
         }
 
-        .button:hover {
-            opacity: 0.85;
+        .upload {
+            background: #22c55e;
+            color: black;
+        }
+
+        .download {
+            background: #38bdf8;
+            color: black;
         }
     </style>
 </head>
 <body>
 
-    <h1>Get my java bhai</h1>
+    <h1>Community File Sharing</h1>
 
-    <div class="instructions">
+    <div class="box">
         <h2>Instructions</h2>
         <p>
-            1. Click the button below to open the text file.<br><br>
-            2. Select all the text (Ctrl + A).<br><br>
-            3. Copy it (Ctrl + C).<br><br>
-            4. Paste it into a bookmarklet<br><br>
-             to make a bookmarklet make the bookmark tab visible, right click and add page,
-            enter the name as anything then paste the code from the text file into the url
+            1. Click Upload to add a file.<br><br>
+            2. Files appear instantly in the Drive folder.<br><br>
+            3. Anyone can download from the folder.
         </p>
     </div>
 
-    <a href="code.txt" target="_blank" class="button">
-        Open text file<br><br>
-        no larps allowed<br><br>
-        dont leak the sauce
+    <!-- REPLACE THESE LINKS -->
+
+    <a href="https://drive.google.com/drive/folders/1Ay1B7ZgKu49hYHvawgJNfIAeTN45wKsX?usp=sharing" target="_blank" class="upload">
+        Upload File
+    </a>
+
+    <a href="https://drive.google.com/drive/folders/1Ay1B7ZgKu49hYHvawgJNfIAeTN45wKsX?usp=sharing" target="_blank" class="download">
+        View & Download Files
     </a>
 
 </body>
